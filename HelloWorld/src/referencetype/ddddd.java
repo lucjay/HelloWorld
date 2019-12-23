@@ -25,18 +25,18 @@ public class ddddd {
 		boolean run = true;
 		while (run) {
 			int num = (int) (Math.random() * 6) + 1;
-			System.out.println("실패"+num);
+			System.out.println("실패" + num);
 			if (num == 5) {
-				System.out.println("성공"+num);
+				System.out.println("성공" + num);
 				run = false;
 			}
 		}
 		int num2 = 1;
 		while (num2 != 6) {
 			num2 = (int) (Math.random() * 6) + 1;
-			System.out.println("실패"+num2);
+			System.out.println("실패" + num2);
 			if (num2 == 6) {
-				System.out.println("성공"+num2);
+				System.out.println("성공" + num2);
 				break;
 
 			}
