@@ -6,7 +6,7 @@ public class MethodExample {
 		System.out.println(s1);
 		String result = printResult("이빈우");
 		System.out.println(result);
-		double s2 = calculator(5, 3, "-");
+		double s2 = calculator(5, 3, "%");
 		System.out.println(s2);
 
 	}
