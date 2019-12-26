@@ -57,15 +57,20 @@ public class BankApplication {
 	}
 
 	private static void accountList() {
+		System.out.println("--------");
+		System.out.println("계좌목록");
+		System.out.println("--------");
 		for (Account a : accountAry) {
 			if (a != null) {
 				System.out.println(a);
 			}
 		}
-
 	}
 
 	private static void deposit() {
+		System.out.println("--------");
+		System.out.println("예금");
+		System.out.println("--------");
 
 	}
 
@@ -73,7 +78,6 @@ public class BankApplication {
 
 	}
 
-	private static Account findAccount(String ano) {
+//	private static Account findAccount(String ano) {
 
-	}
 }

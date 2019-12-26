@@ -12,7 +12,7 @@ public class MemberExample {
 			System.out.println("*****************************");
 			System.out.println("1.생성 | 2.조회 | 3.리스트 | 4.종료");
 			System.out.println("*****************************");
-			System.out.println("선택> ");
+			System.out.print("선택> ");
 			menu = sc.nextInt();
 			sc.nextLine();
 			if (menu == 1) {
