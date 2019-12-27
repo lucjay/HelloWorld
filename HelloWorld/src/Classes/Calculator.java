@@ -1,6 +1,8 @@
 package Classes;
 
 public class Calculator {
+	public String color;
+
 	int plus(int x, int y) {
 		return x + y;
 	}
