@@ -32,7 +32,7 @@ public class FriendExe {
 	}
 
 	private static void unifrined() {
-		Friend fe = new Friend("name", "phone");
+		FriendExe fe = new FriendExe();
 		System.out.println("------선택");
 		System.out.println("대학교");
 		System.out.println("회사");
