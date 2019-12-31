@@ -33,7 +33,7 @@ public class UnivFriend extends Friend {
 
 	@Override
 	public void introduce() {
-		System.out.println("이름은:" + super.getName() + "연락처는:" + super.getPhone() + "학교:" + univ + "전공은:" + major);
+		System.out.println("이름은:" + getName() + "연락처는:" + getPhone() + "학교:" + univ + "전공은:" + major);
 	}
 
 }

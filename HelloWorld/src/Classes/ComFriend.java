@@ -32,7 +32,7 @@ public class ComFriend extends Friend {
 	}
 
 	public void introduce() {
-		System.out.println("이름은:" + super.getName() + "연락처는:" + super.getPhone() + "회사는:" + company + "부서는:" + dept);
+		System.out.println("이름은:" + getName() + "연락처는:" + getPhone() + "회사는:" + company + "부서는:" + dept);
 
 	}
 
