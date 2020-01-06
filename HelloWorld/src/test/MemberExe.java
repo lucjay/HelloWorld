@@ -13,7 +13,7 @@ public class MemberExe {
 		while (run) {
 			System.out.println("-------------수영장 회원관리-------------");
 			System.out.println("1.추가 | 2.수정 | 3.삭제 | 4.리스트 | 5.종료 ");
-			System.out.println("------_------------------------------");
+			System.out.println("-------------------------------------");
 			System.out.println("메뉴를 선택 하세요. > ");
 
 			int mNo = scn.nextInt();
