@@ -22,13 +22,13 @@ public class CalendarExe {
 		int mon = month + 1;
 		String[] weeks = { "일 ", "월 ", "화 ", "수 ", "목 ", "금 ", "토 " };
 		cl.set(year, month, 1);
-		for(int i = 0; i<weeks.length;i++) {
-			System.out.print(""+weeks[i]);
-			int sp =0;
-			for (int a  =1; a<cl.get(Calendar.DAY_OF_MONTH));
-					System.out.println("");
-					sp++;
-			
+		for (int i = 0; i < weeks.length; i++) {
+			System.out.print("" + weeks[i]);
+			int sp = 0;
+			// for (int a =1; a<cl.get(Calendar.DAY_OF_MONTH));
+			System.out.println("");
+			sp++;
+
 		}
 
 	}
