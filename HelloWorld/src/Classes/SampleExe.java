@@ -26,7 +26,7 @@ public class SampleExe {
 		Scanner scn = new Scanner(System.in);
 		Sample[] samAry = new Sample[100];
 		sample = new Sample(30, "apple");
-		samAry[0] = 10;
+//		samAry[0] = 10;
 
 		int[] intAry = new int[10];
 		System.out.println("메뉴선택 1  2  3");
